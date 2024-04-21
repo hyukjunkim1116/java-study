@@ -9,3 +9,4 @@ IntelliJ 단축키,단축어
 5. cmd + shift + f : 텍스트 검색
 6. cmd + alt + o : 안쓰는 import 삭제
 7. cmd + f2 : 프로젝트 종료
+8. option + cmd + v : 변수명 완성

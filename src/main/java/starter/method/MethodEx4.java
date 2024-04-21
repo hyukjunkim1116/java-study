@@ -19,7 +19,7 @@ public class MethodEx4 {
                     System.out.print("입금액을 입력하세요: ");
                     int amount = scanner.nextInt();
                     scanner.nextLine();
-                    balance = deposit(amount, balance);
+                    int deposit = deposit(amount, balance);
                     break;
                 case 2:
                     System.out.print("출금액을 입력하세요: ");
