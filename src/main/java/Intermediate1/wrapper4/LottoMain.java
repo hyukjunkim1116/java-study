@@ -8,6 +8,5 @@ public class LottoMain {
         for (int lottoNumber : lottoNumbers) {
             System.out.println(lottoNumber + " ");
         }
-
     }
 }
