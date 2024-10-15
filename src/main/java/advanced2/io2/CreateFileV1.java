@@ -1,10 +1,10 @@
-package advanced2.inputoutput2;
+package advanced2.io2;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import static advanced2.inputoutput2.BufferedConst.FILE_NAME;
-import static advanced2.inputoutput2.BufferedConst.FILE_SIZE;
+import static advanced2.io2.BufferedConst.FILE_NAME;
+import static advanced2.io2.BufferedConst.FILE_SIZE;
 
 public class CreateFileV1 {
     public static void main(String[] args) throws IOException {

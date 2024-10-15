@@ -1,4 +1,4 @@
-package advanced2.inputoutput3;
+package advanced2.io3;
 
 import java.io.*;
 

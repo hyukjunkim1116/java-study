@@ -1,4 +1,4 @@
-package advanced2.inputoutput2;
+package advanced2.io2;
 
 public class BufferedConst {
     public static final String FILE_NAME = System.getProperty("user.dir")+"/src/main/java/advanced2/inputoutput2/temp/buffered.dat";

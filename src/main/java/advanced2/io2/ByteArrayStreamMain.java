@@ -1,4 +1,4 @@
-package advanced2.inputoutput2;
+package advanced2.io2;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

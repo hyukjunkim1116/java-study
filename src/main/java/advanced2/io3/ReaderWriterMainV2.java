@@ -1,9 +1,9 @@
-package advanced2.inputoutput3;
+package advanced2.io3;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-import static advanced2.inputoutput3.TextConst.FILE_NAME;
+import static advanced2.io3.TextConst.FILE_NAME;
 
 public class ReaderWriterMainV2 {
     public static void main(String[] args) throws IOException {

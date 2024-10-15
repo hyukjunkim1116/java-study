@@ -1,13 +1,12 @@
-package advanced2.inputoutput3;
+package advanced2.io3;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
-import static advanced2.inputoutput3.TextConst.FILE_NAME;
+import static advanced2.io3.TextConst.FILE_NAME;
 
 public class ReaderWriterMainV1 {
 
