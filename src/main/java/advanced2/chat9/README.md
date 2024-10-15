@@ -14,3 +14,4 @@ scanner.nextLine() : 블로킹
 ![img_2.png](img_2.png)
 
 참고 : 이번 파트는 실습 위주이므로 개념 내용이 별로 없다. 자세한 내용은 강의 자료와 실습 코드를 참고하자
+팁 : Null Object Pattern과 Command Pattern을 활용하면 깔끔한 코드를 만들 수 있다.
