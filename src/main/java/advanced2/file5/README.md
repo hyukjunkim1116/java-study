@@ -130,6 +130,21 @@ public class ReadTextFileV1 {
 파일을 복사할 때는 Files 클래스의 copy() 메서드를 사용하면 된다.
 Files.copy()는 자바에 파일 데이터를 불러오지 않고 운영체제의 파일 복사 기능을 사용한다.
 이 기능은 파일에서 파일을 복사할 때만 유용하다. 파일의 정보를 처리해야하거나 스트림을 통해 네트워크로 전달해야 한다면 스트림을 직접 사용해야 한다.
+스트림을 사용할떄는 transferTo()를 사용하자
+```
+```java
+public class FileCopyMainV2 {
+    public static void main(String[] args) throws IOException {
+        long startTime = System.currentTimeMillis();
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/advanced2/file5/temp/hello.txt");
+        FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir")+"/src/main/java/advanced2/file5/temp/hello2.txt");
+        fis.transferTo(fos);
+        fis.close();
+        fos.close();
+        long endTime = System.currentTimeMillis();
+        System.out.println("Time: " + (endTime - startTime) + "ms");
+    }
+}
 ```
 ```java
 public class FileCopyMainV3 {
